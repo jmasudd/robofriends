@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import 'tachyons' ;
-import Card from './Card.js'
+import 'tachyons';
+import App from './App'
 
-ReactDOM.render(    
+ReactDOM.render(
+  <App/>
+  ,
   document.getElementById('root')
 );
 
